@@ -6,7 +6,7 @@ const setupSocket = require('./socket');
 
 // Create Express app
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // MongoDB Connection URI, to specific collection
 const MONGODB_URI = 'mongodb+srv://navehroi:roi123456@roidb.upn2ppy.mongodb.net/code_block';
