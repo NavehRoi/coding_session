@@ -1,5 +1,6 @@
 // codeBlock.js
-const URL_SERVER = 'http://localhost:3000'
+//const URL_SERVER = 'http://localhost:3000'
+const URL_SERVER ='https://coding-session.onrender.com'
 const codeEditor = document.getElementById('code-editor');
 const highlightedCode = document.getElementById('highlighted-code');
 const codeTitle = document.getElementById('code-title');
