@@ -18,14 +18,14 @@ Ability to display a smiley face when the student's code matches the solution.
 
 ## Technologies Used
 ### Frontend:
-HTML
-CSS (Bootstrap)
-JavaScript
-Socket.IO for real-time communication
+HTML, 
+CSS (Bootstrap), 
+JavaScript, 
+Socket.IO for real-time communication, 
 Highlight.js for syntax highlighting
 
 ### Backend:
-Node.js with Express.js for the server
-MongoDB for data storage
-Mongoose for MongoDB object modeling
+Node.js with Express.js for the server, 
+MongoDB for data storage, 
+Mongoose for MongoDB object modeling, 
 Socket.IO for real-time communication
