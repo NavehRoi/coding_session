@@ -1,0 +1,73 @@
+<!-- lobby.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Lobby</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <h1 id="code-title">Choose Code Block</h1>
+  <div>
+    </br>
+    </br>
+  </div>
+ 
+  <div class="row row-cols-1 row-cols-md-2 g-4 ">
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/fetch3.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Fetch Data Asynchronously</h5>
+          <p class="card-text">Here we are going ro practice Fetching Data from URL</p>
+        </div>
+        <div class="card-footer">
+          <button onclick="loadCodeBlock('Fetch Data Asynchronously')">Solve</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/arrow.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Arrow Function</h5>
+          <p class="card-text">We are going to learn Arrow Functions</p>
+        </div>
+        <div class="card-footer">
+          <button onclick="loadCodeBlock('Arrow Function')">Solve</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/filter.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Filter Array</h5>
+          <p class="card-text">Filtering in Array is very important Skill!</p>  
+        </div>
+        <div class="card-footer">
+          <button onclick="loadCodeBlock('Filter Array')">Solve</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/sort1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sort Array of Objects</h5>
+          <p class="card-text">Sorting Arrays is must known skill for all developers</p>
+        </div>
+        <div class="card-footer">
+          <button onclick="loadCodeBlock('Sort Array of Objects')">Solve</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="js/lobby.js"></script>
+</body>
+</html>

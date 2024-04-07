@@ -1,0 +1,54 @@
+body {
+    background-image: url('../images/triangle-mosaic.png'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+#code-title {
+    text-align: center; 
+    margin-top: 20px; 
+  }
+#role-title{
+  text-align: center;
+}
+  
+#code-editor {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    white-space: pre-wrap;
+    background-color: rgb(197, 223, 223);
+  }
+  
+  #highlighted-code {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    white-space: pre-wrap;
+  }
+
+  .container {
+    margin-top: 50px;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    
+}
+  .smiley-image {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+}

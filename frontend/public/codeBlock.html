@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Block</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/base16/pop.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+   <!-- Include Socket.IO client library -->
+   <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+  <h1 id="code-title"> </h1>
+  <h2 id="role-title"> </h2>
+ <div class="container">
+  <div style="position: relative;">
+    <textarea id="code-editor" class="code-editor" rows="20" cols="100"></textarea>
+    <pre class="javascript" id="highlighted-code" style="position: absolute; top: 0; left: 0; visibility: visible;"></pre>
+  </div>
+  
+</div>
+<img src="images/smiley2.png" class="smiley-image" id="smiley-image" style="visibility: hidden" >
+
+
+  <script src="js/codeBlock.js" ></script>
+</body>
+</html>
